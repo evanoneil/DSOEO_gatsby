@@ -4,7 +4,7 @@ import Header from "../components/header"
 const IndexPage = () => (
 <div style={{ color: `purple` }}>
 <Header headerText="Design Studio of Evan O'Neil" />   
-  <p className="f1">What a world.</p>
+  <p className="f1">What a freakin world.</p>
     <img src="https://source.unsplash.com/random/400x200" alt="" />
 
     </div>
