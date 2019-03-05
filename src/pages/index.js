@@ -9,6 +9,7 @@ import BottomMessage from "../components/bottommessage"
 
 
 
+
 export default ({ children }) => (
   <Layout>
 
@@ -25,7 +26,7 @@ export default ({ children }) => (
 
 
     <Featured
-      image="/assets/onebreath.jpg"
+      image={"../assets/onebreath.jpg"}
       projectName="One Breath Partnership"
       projectSkills="BRANDING, WEBSITE, MAPPING, DATA-VISUALIZATION, MOTION, LONG-TERM CAMPAIGN"
       projectShortDesc="One Breath Partnership serves to amplify the work of Houston-area scientists in order to educate community members about the impact of air quality on their health. It also provides an outlet for residents to share their stories about the harmful effects of air pollution."
@@ -36,7 +37,7 @@ export default ({ children }) => (
     />
 
     <Featured
-      image="/assets/genhtx.jpg"
+      image={require("/assets/genhtx.jpg")}
       projectName="GenHTX"
       projectSkills="BRANDING, WEBSITE"
       projectShortDesc="GenHTX is grassroots, nonpartisan, and all about organizing the next generation of leaders to forge a better Houston for everyone."
@@ -47,7 +48,7 @@ export default ({ children }) => (
     />
 
 <Featured
-      image="/assets/sayhu.png"
+      image={"/assets/sayhu.png"}
       projectName="SAYHU"
       projectSkills="BRANDING, WEBSITE"
       projectShortDesc="SAYHU is a transnational feminist collective that empowers young South Asian Houstonians by creating spaces where they can engage with, learn, and effectively respond to complex social issues that impact their communities."
