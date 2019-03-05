@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Tachyons',
+    title: `Design Studio of Evan O'Neil`,
+
   },
   plugins: ['gatsby-plugin-react-helmet'],
   plugins: [`gatsby-plugin-postcss`],

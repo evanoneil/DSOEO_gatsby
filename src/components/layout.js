@@ -2,8 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 
-import './tachyons/css/tachyons.css'
-import './custom.css'
+import '../layouts/tachyons/css/tachyons.css'
 
 export default ({ children }) => (
   <StaticQuery
@@ -19,9 +18,11 @@ export default ({ children }) => (
        render={data => (
          <>
            <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
-           <div>
+           <body class="w-100 bg-white sans-serif">
+<div>
              {children}
            </div>
+           </body>
          </>
        )}
      />
