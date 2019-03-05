@@ -37,7 +37,7 @@ export default ({ children }) => (
     />
 
     <Featured
-      image={require("/assets/genhtx.jpg")}
+      image={"/assets/genhtx.jpg"}
       projectName="GenHTX"
       projectSkills="BRANDING, WEBSITE"
       projectShortDesc="GenHTX is grassroots, nonpartisan, and all about organizing the next generation of leaders to forge a better Houston for everyone."
