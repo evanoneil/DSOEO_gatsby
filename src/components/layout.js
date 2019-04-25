@@ -1,29 +1,32 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
-
+import React from 'react';
+// import Helmet from 'react-helmet'
+import { Link } from 'gatsby';
 import '../layouts/tachyons/css/tachyons.css'
+import MainMessage from "../components/mainmessage"
+import Header from "../components/header"
+import BottomMessage from "../components/bottommessage"
 
-export default ({ children }) => (
-  <StaticQuery
-  query={graphql`
-  query LayoutQuery {
-           site {
-             siteMetadata {
-               title
-             }
-           }
-         }
-       `}
-       render={data => (
-         <>
-           <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
-           <body class="w-100 bg-white sans-serif">
-<div>
-             {children}
-           </div>
-           </body>
-         </>
-       )}
-     />
-   )
+
+
+const Layout = ({ children }) => (
+  <React.Fragment>
+        <Header />
+
+<MainMessage
+      largeText="Good listening is good communication"
+      smallText1="I am interested in visual communication projects in collaboration with advocacy organizations who hold a progressive social mission seeking to make their information more accessible to the public. I enjoy bringing in data visualization, mapping, and a process of clear concise communication to projects."
+      smallText2="Send me an email, let's talk."
+    />
+    <main className="content">{children}</main>
+
+    <BottomMessage />
+
+  </React.Fragment>
+)
+
+export default Layout;
+
+
+
+
+

@@ -47,6 +47,8 @@
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
 .f7 { font-size: .75rem; } /* Small and hard to read for many people so use with extreme caution */
+.f8 { font-size: 10rem; } 
+
 
 @media (--breakpoint-not-small){
   .f-6-ns,

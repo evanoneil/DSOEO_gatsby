@@ -5,7 +5,7 @@ import React from 'react'
 export default props => (
     <div class="fl w-50-l w-100  pa5-l pa4  black-90 bg-white mh32" >
 
-        <p class=""><img src={props.image} /></p>
+        <p class=""><img src={props.image} alt="test alt"/></p>
 <div class="w-40-ns w-100 pr4 fl">
         <h2 class="mt3 fw1 f3 mb3">{props.projectName}</h2>
         <p class="f7 mt0 light-blue lh-copy">{props.projectSkills}</p>
