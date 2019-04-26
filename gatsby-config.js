@@ -15,6 +15,12 @@ module.exports = {
       name: 'project',
       path: './src/data'
     }
+  },
+  {
+    resolve: 'gatsby-plugin-html-attributes',
+    options: {
+      lang: 'en'
+    }
   }
 ]
 }
