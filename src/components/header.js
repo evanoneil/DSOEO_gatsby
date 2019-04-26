@@ -12,8 +12,8 @@ export default props => (
       <div className="fl"><a href="https://www.evanoneil.studio" className={styles.sitetitleheader}><h3 className="fw3">Design Studio of Evan O'Neil</h3></a></div>
     </div>
     <div className="fl w-two-thirds ph3 w-100 tr">
-      <a className="dib ma3 pa1 purple" href="https://www.instagram.com/evanoneil.studio" alt="instagram.com/evanoneil.studio"><FaInstagram /></a>
-      <a className="dib ma3 pa1 purple" href="mailto:evan@evanoneil.studio" alt="evan@evanoneil.studio"><FaRegEnvelope /></a>
+      <a className="dib ma3 pa1 purple" href="https://www.instagram.com/evanoneil.studio" aria-label="instagram.com/evanoneil.studio"><FaInstagram /></a>
+      <a className="dib ma3 pa1 purple" href="mailto:evan@evanoneil.studio" aria-label="evan@evanoneil.studio"><FaRegEnvelope /></a>
     </div>
   </nav>
 
