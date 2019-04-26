@@ -2,6 +2,8 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import ProjectPreview from '../components/project-preview'
+import Helmet from 'react-helmet'
+
 
 export default () => {
   const data = useStaticQuery(graphql`

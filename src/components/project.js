@@ -1,9 +1,19 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
+import Helmet from 'react-helmet';
+
 
 const Project = ({ title, description, url, imageData }) => (
     <React.Fragment>
+        <Helmet
+      title= {title} dsoeo
+      meta={[
+        { name: "description", content: "Design for Social Action" },
+        { name: "keywords", content: "design, houston, progressive, branding" }
+      ]}
+    />
+
     <div class="fl w-30-l w-100  pa5-l pa4  black-90 bg-white" >
 
 

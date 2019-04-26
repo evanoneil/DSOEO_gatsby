@@ -1,5 +1,5 @@
 import React from 'react';
-// import Helmet from 'react-helmet'
+import Helmet from 'react-helmet'
 import { Link } from 'gatsby';
 import '../layouts/tachyons/css/tachyons.css'
 import MainMessage from "../components/mainmessage"
@@ -10,6 +10,13 @@ import BottomMessage from "../components/bottommessage"
 
 const Layout = ({ children }) => (
   <React.Fragment>
+        <Helmet
+      title="Design Studio of Evan O'Neil"
+      meta={[
+        { name: "description", content: "Design for Social Action" },
+        { name: "keywords", content: "design, houston, progressive, branding" }
+      ]}
+    />
         <Header />
 
 <MainMessage
