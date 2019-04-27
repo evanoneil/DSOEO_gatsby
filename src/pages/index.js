@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import ProjectPreview from '../components/project-preview'
-import Helmet from 'react-helmet'
 
 
 export default () => {
@@ -14,7 +13,7 @@ export default () => {
             title
             description
             slug
-            tags
+            skills
             image {
               childImageSharp {
                 fluid {
@@ -37,7 +36,7 @@ export default () => {
         const description = project.description;
         const slug = project.slug;
         const imageData = project.image.childImageSharp.fluid;
-        const tags = project.tags;;
+        const skills = project.skills;;
 
         return (
           <ProjectPreview
@@ -45,7 +44,7 @@ export default () => {
             description={description}
             slug={slug}
             imageData={imageData}
-            tags={tags}
+            skills={skills}
           />
         )
       })}

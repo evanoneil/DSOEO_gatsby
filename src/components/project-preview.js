@@ -4,7 +4,7 @@ import Image from 'gatsby-image';
 import '../layouts/tachyons/css/tachyons.css'
 
 
-const ProjectPreview = ({ title, description, slug, tags, imageData }) => (
+const ProjectPreview = ({ title, description, slug, skills, imageData }) => (
   <div className="fl w-50-l w-100  pa5-l pa4  black-90 bg-white mh32" >
   <Link to={`/${slug}/`}>
       <Image fluid={imageData} alt={title} />
@@ -13,9 +13,9 @@ const ProjectPreview = ({ title, description, slug, tags, imageData }) => (
 
     <h2 className="mt3 fw1 f3 mb3">      {title}
     </h2>
-    <p className="f7 mt0 purple lh-copy">{tags}</p>
+    <p className="f7 mt0 purple ttu lh-copy">{skills}</p>
 
-    <p className="mt3 fw1 f6">      <Link className="black" to={`/${slug}/`}>View this project &rarr;</Link>
+    <p className="mt3 fw1 f6">      <Link className="black" to={`/${slug}/`}>Project Details &rarr;</Link>
 </p>
             
             </div>

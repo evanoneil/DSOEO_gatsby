@@ -3,73 +3,101 @@
     "title": "Humanitarian Action Plan",
     "slug": "humanitarian_action_plan",
     "url": "https://hap.houstonimmigration.org/",
-    "second_link": "https://www.houstonpublicmedia.org/articles/news/2019/03/22/326313/advocates-release-action-plan-to-improve-how-immigrants-survive-disasters/?fbclid=IwAR1ImFwoi_OxpAAxZrWEXOhoWqrkpxnCMj8XrSq21YvQtwh1Vr2cgt9nK0M",
+    "secondlink": "https://www.houstonpublicmedia.org/articles/news/2019/03/22/326313/advocates-release-action-plan-to-improve-how-immigrants-survive-disasters/?fbclid=IwAR1ImFwoi_OxpAAxZrWEXOhoWqrkpxnCMj8XrSq21YvQtwh1Vr2cgt9nK0M",
     "image": "./images/hilsc-hap.jpg",
     "description": "The Humanitarian Action Plan includes 34 recommendations, which were put together after studying the experiences of service providers at 40 immigrant-serving organizations. They found many immigrants faced additional barriers during and after Harvey.   ",
-    "tags": ["Website ", "Data-Visualization" ]
+    "skills": ["Website, ", "Data-Visualization" ],
+    "collaborators": "Katy Atkiss at Impetus Consulting, Leonela Guzman",
+    "url2title": "Houston Public Media Article"
   },
   {
     "title": "One Breath Partnership",
     "slug": "one_breath_partnership",
     "url": "https://www.onebreathhou.org/",
-    "second_link": "https://www.houstonpublicmedia.org/articles/news/2019/03/22/326313/advocates-release-action-plan-to-improve-how-immigrants-survive-disasters/?fbclid=IwAR1ImFwoi_OxpAAxZrWEXOhoWqrkpxnCMj8XrSq21YvQtwh1Vr2cgt9nK0M",
+    "secondlink": "https://www.facebook.com/onebreathhou",
     "image": "./images/onebreath.jpg",
     "description": "One Breath Partnership is a catalyst for information and education. It serves to amplify the work of Houston-area scientists, researchers, academics, and physicians in order to educate community members about the impact of air quality on their health. It also provides an outlet for residents to share their stories about the harmful effects of air pollution.",
-    "tags": ["BRANDING ", "WEBSITE ", "MAPPING", "DATA-VISUALIZATION", "MOTION GRAPHICS", "ART DIRECTION", "LONG-TERM CAMPAIGN"]
+    "skills": ["BRANDING, ", "WEBSITE, ", "MAPPING, ", "DATA-VISUALIZATION, ", "MOTION GRAPHICS, ", "ART DIRECTION, ", "LONG-TERM CAMPAIGN"],
+    "collaborators": "Laredo Street",
+    "url2title": "Facebook Page"
   },
   {
     "title": "SAYHU",
     "slug": "sayhu",
     "url": "https://www.sayhu.org/",
-    "second_link": "https://www.facebook.com/sayhutx",
+    "secondlink": "https://www.facebook.com/sayhutx",
     "image": "./images/sayhu-og.png",
     "description": "South Asian Youth in Houston Unite (SAYHU) is a transnational feminist collective that empowers young South Asian Houstonians by creating spaces where they can engage with, learn, and effectively respond to complex social issues that impact our communities.",
-    "tags": ["Website ", "Branding "]
+    "skills": ["Website, ", "Branding"],
+    "collaborators": "The whole SAYHU Team",
+    "url2title": "Facebook Page"
   },
   {
     "title": "Definite Declining",
     "slug": "definite_declining",
     "url": "https://houston.definitedeclining.org/",
-    "second_link": "https://github.com/evanoneil/houston_redlining",
+    "secondlink": "https://github.com/evanoneil/houston_redlining",
     "image": "./images/redlining_og.jpg",
-    "description": "This project involved the creation of the digital version of the HOLC Residential Security Map from the 1930's that institutionalized the practice of redlining in Houston, and around America. I believe this is the first time this map has been brought online, I hope it will serve as a useful tool to explore how the practice of redlining still affects our city 80+ years later. The site has a live map built in @mapbox studio to begin exploring, and on the github repo there is a GEOJSON object that is free for public non-commercial use, but I would love to hear if and how this is of use if anyone uses it in a project or study.",
-    "tags": ["MAPPING ", "SELF_DIRECTED ", "BRANDING ", "WEBSITE "]
+    "description": "This project involved the creation of the digital version of the HOLC Residential Security Map from the 1930's that institutionalized the practice of redlining in Houston, and around America. I believe this is the first time this map has been brought online, I hope it will serve as a useful tool to explore how the practice of redlining still affects our city 80+ years later.",
+    "longdescription": "The site has a live map built in @mapbox studio to begin exploring, and on the github repo there is a GEOJSON object that is free for public non-commercial use, but I would love to hear if and how this is of use if anyone uses it in a project or study.",
+    "skills": ["MAPPING, ", "SELF_DIRECTED, ", "BRANDING, ", "WEBSITE"],
+    "collaborators": "Workshop Participants from my Redlining Workshop at the Contemporary Arts Museum Houston",
+    "url2title": "GitHub Page"
   },
   {
     "title": "Houston in Action",
     "slug": "houston_in_action",
     "url": "https://www.houstoninaction.org/",
-    "second_link": "https://facebook.com/houstoninaction",
+    "secondlink": "https://facebook.com/houstoninaction",
     "image": "./images/hia_og.jpg",
     "description": "Houston in Action is an initiative made up of people and organizations who have come together to advance our community forward through our respective and collective work to build a stronger Houston through a culture of civic engagement.",
-    "tags": ["BRANDING ", "WEBSITE ", "CAMPAIGN GRAPHICS "]
+    "skills": ["BRANDING, ", "WEBSITE, ", "CAMPAIGN GRAPHICS"],
+    "collaborators": "Laredo Street and the Houston in Action Partners",
+    "url2title": "Facebook Page"
   },
   {
     "title": "Harvey Dam Explainer",
     "slug": "harvey_dam_explainer_chronicle_cite",
     "url": "https://www.houstonchronicle.com/local/gray-matters/article/How-the-Barker-and-Addicks-dams-work-12171719.php",
-    "second_link": "http://offcite.org/how-the-barker-and-addicks-dams-work/",
+    "secondlink": "http://offcite.org/how-the-barker-and-addicks-dams-work/",
     "image": "./images/cite-hc_dams-5-1240.jpg",
     "description": "I contributed the visuals to this article in the Houston Chronicle and Cite Magazine explaining how the Adickes and Barker Dams work in collaboration with Florence Tang, Andrew Albers, Ernesto Alfaro, Raj Mankad, and Allyn West.",
-    "tags": ["Mapping ", "Data-Visualization "]
+    "skills": ["Mapping, ", "Data-Visualization"],
+    "collaborators": "Florence Tang, Andrew Albers, Ernesto Alfaro, Raj Mankad, and Allyn West",
+    "url2title": "in OffCite" 
+  },
+  {
+    "title": "GenHTX",
+    "slug": "genhtx",
+    "url": "https://www.genhtx.org/",
+    "secondlink": "https://facebook.com/genhtx",
+    "image": "./images/genhtx.jpg",
+    "description": "GenHTX is grassroots, nonpartisan, and all about organizing the next generation of leaders to forge a better Houston for everyone.",
+    "skills": ["BRANDING, ", "CAMPAIGN GRAPHICS"],
+    "collaborators": "Laredo Street and the Houston in Action team",
+    "url2title": "Facebook Page"
   },
   {
     "title": "Fran Watson for Texas",
     "slug": "fran_watson_for_texas",
     "url": "http://about-online.com/featured/exclusive-interview-fran-watson/",
-    "second_link": "#",
+    "secondlink": "#",
     "image": "./images/fwft.jpg",
-    "description": "I contributed the visuals to this article in the Houston Chronicle and Cite Magazine explaining how the Adickes and Barker Dams work in collaboration with Florence Tang, Andrew Albers, Ernesto Alfaro, Raj Mankad, and Allyn West.",
-    "tags": ["Website", "Data-Visualization"]
+    "description": "I was proud to serve as Digital Director for friend and community leader Fran Watson's campaign for State Senate in District 17.",
+    "skills": ["Branding, ", "Website, ", "LONG-TERM CAMPAIGN"],
+    "collaborators": "Fran and her whole campaign team",
+    "url2title": " "
   },
 
   {
     "title": "El Modena",
     "slug": "el_modena",
     "url": "https://www.elmodena.io/",
-    "second_link": "https://elmodena.bandcamp.com",
+    "secondlink": "https://elmodena.bandcamp.com",
     "image": "./images/el_modena-fb_header_2.png",
     "description": "Music has always been a major part of my personal life, El Modena brings together my love of creating music with utopian science-fiction for ambient style music with backing field-recordings from my travels. My first audio/visual album The Expanded Present was released in the spring of 2019.",
-    "tags": ["MUSIC ", "BRANDING ", "WEBSITE ", "SELF_DIRECTED "]
+    "skills": ["MUSIC, ", "BRANDING, ", "WEBSITE, ", "SELF_DIRECTED, "],
+    "collaborators": "This is a solo project",
+    "url2title": "Bandcamp page"
   }
 ]

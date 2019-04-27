@@ -9,6 +9,10 @@ export const query = graphql`
       title
       description
       url
+      secondlink
+      url2title
+      collaborators
+      skills
       image {
         childImageSharp {
           fluid {
@@ -26,6 +30,10 @@ const ProjectTemplate = ({ data }) => {
   const description = project.description;
   const imageData = project.image.childImageSharp.fluid;
   const url = project.url;
+  const skills = project.skills;
+  const secondlink= project.secondlink;
+  const url2title=project.url2title;
+  const collaborators=project.collaborators
 
   return (
     <LayoutPage>
@@ -34,6 +42,10 @@ const ProjectTemplate = ({ data }) => {
         description={description}
         imageData={imageData}
         url={url}
+        skills={skills}
+        secondlink={secondlink}
+        url2title={url2title}
+        collaborators={collaborators}
       />
     </LayoutPage>
   );

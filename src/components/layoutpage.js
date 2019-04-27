@@ -2,7 +2,6 @@ import React from 'react';
 // import Helmet from 'react-helmet'
 import '../layouts/tachyons/css/tachyons.css'
 import Header from "../components/header"
-import BottomMessage from "../components/bottommessage"
 
 
 
