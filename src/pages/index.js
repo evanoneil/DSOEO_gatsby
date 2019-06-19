@@ -7,17 +7,20 @@ import ProjectPreview from '../components/project-preview'
 export default () => {
   const data = useStaticQuery(graphql`
     {
-      allProjectsJson {
+      allSanityProject (sort: { order: ASC, fields: [ordersorter] }) {
         edges {
           node {
             title
+            ordersorter
             description
-            slug
+            slug {
+              current
+            }
             skills
             image {
-              childImageSharp {
+              asset {
                 fluid {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbySanityImageFluid
                 }
               }
             }
@@ -27,16 +30,17 @@ export default () => {
     }
   `)
 
-  const projects = data.allProjectsJson.edges
+  const projects = data.allSanityProject.edges
 
   return (
     <Layout>
       {projects.map(({ node: project }) => {
         const title = project.title;
         const description = project.description;
-        const slug = project.slug;
-        const imageData = project.image.childImageSharp.fluid;
-        const skills = project.skills;;
+        const slug = project.slug.current;
+        const imageData = project.image.asset.fluid;
+        const skills = project.skills;
+        const ordersorter = project.ordersorter
 
         return (
           <ProjectPreview
@@ -45,6 +49,7 @@ export default () => {
             slug={slug}
             imageData={imageData}
             skills={skills}
+            ordersorter={ordersorter}
           />
         )
       })}

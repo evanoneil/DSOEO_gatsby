@@ -15,7 +15,7 @@ const ProjectPreview = ({ title, description, slug, skills, imageData }) => (
     </h2>
     <p className="f7 mt0 purple ttu lh-copy skills">{skills}</p>
 
-    <p className="mt3 fw1 f6">      <Link className="black" to={`/${slug}/`}>Project Details &rarr;</Link>
+    <p className="mt3 fw1 f6">      <Link className="black" to={`/${slug}/`}>Read the post &rarr;</Link>
 </p>
             
             </div>

@@ -19,8 +19,8 @@ const Layout = ({ children }) => (
         <Header />
 
 <MainMessage
-      largeText="Good listening is good communication"
-      smallText1="I am interested in visual communication projects in collaboration with advocacy organizations who hold a progressive social mission seeking to make their information more accessible to the public. I enjoy bringing in data visualization, mapping, and a process of clear concise communication to projects."
+      largeText="Recent research and experiments"
+      smallText1=""
     />
     <main className="content">{children}</main>
 

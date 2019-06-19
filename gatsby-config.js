@@ -10,10 +10,10 @@ module.exports = {
   'gatsby-transformer-sharp',
   'gatsby-plugin-sharp',
   {
-    resolve: 'gatsby-source-filesystem',
+    resolve: 'gatsby-source-sanity',
     options: {
-      name: 'project',
-      path: './src/data'
+      projectId: '0xfk5i93',
+      dataset: 'production'
     }
   },
   {

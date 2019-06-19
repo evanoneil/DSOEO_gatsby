@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "eo-sanity-gatsby-portfolio"
+  },
+  "api": {
+    "projectId": "0xfk5i93",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
