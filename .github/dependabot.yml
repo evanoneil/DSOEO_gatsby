@@ -1,0 +1,33 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby
+    versions:
+    - 2.29.3
+    - 2.31.1
+  - dependency-name: gatsby-image
+    versions:
+    - 2.10.0
+    - 2.8.0
+  - dependency-name: gatsby-transformer-sharp
+    versions:
+    - 2.11.0
+    - 2.9.0
+  - dependency-name: react-icons
+    versions:
+    - 4.1.0
+  - dependency-name: gatsby-source-sanity
+    versions:
+    - 6.0.4
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
